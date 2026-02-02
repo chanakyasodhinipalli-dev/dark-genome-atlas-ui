@@ -1,0 +1,961 @@
+{
+    "total_proteins": 3244,
+    "total_peptides": 52,
+    "total_entities": 3296,
+    "organism_distribution": [
+        {
+            "label": "Homosapiens",
+            "count": 985,
+            "percentage": 29.88
+        },
+        {
+            "label": "Musmusculus",
+            "count": 719,
+            "percentage": 21.81
+        },
+        {
+            "label": "Caenorhabditiselegans",
+            "count": 512,
+            "percentage": 15.53
+        },
+        {
+            "label": "Arabidopsisthaliana",
+            "count": 418,
+            "percentage": 12.68
+        },
+        {
+            "label": "Drosophilamelanogaster",
+            "count": 230,
+            "percentage": 6.98
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1655",
+            "count": 127,
+            "percentage": 3.85
+        },
+        {
+            "label": "SaccharomycescerevisiaeS288C",
+            "count": 104,
+            "percentage": 3.16
+        },
+        {
+            "label": "Arabidopsis thaliana",
+            "count": 49,
+            "percentage": 1.49
+        },
+        {
+            "label": "Homo sapiens",
+            "count": 15,
+            "percentage": 0.46
+        },
+        {
+            "label": "Ecoli",
+            "count": 3,
+            "percentage": 0.09
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1676",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1727",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1661",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1755",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1681",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1664",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1669",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1699",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1697",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1725",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1711",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1781",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1754",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1737",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1772",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1659",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1674",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1713",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1714",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1739",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1717",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1724",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1764",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1731",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1730",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1685",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1776",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1749",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1660",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1738",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1778",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1780",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1678",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1767",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1770",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1696",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1668",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1760",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1692",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1787",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1786",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1687",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1703",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1686",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1777",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1656",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1773",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1758",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1718",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1757",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1736",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1779",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1720",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1672",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1716",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1742",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1684",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1747",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1689",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1732",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1680",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1763",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1690",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1691",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1715",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1694",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1734",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1688",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1729",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1719",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1712",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1658",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1665",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1666",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1667",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1675",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1682",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1701",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1704",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1709",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1671",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1765",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1783",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1784",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1789",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1662",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1663",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1673",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1677",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1683",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1700",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1702",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1706",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1710",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1722",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1740",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1743",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1744",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1775",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1788",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1721",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1723",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1698",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1766",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1782",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1771",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1753",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1746",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1756",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1752",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1750",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1733",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1741",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1707",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1762",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1728",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1693",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1769",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1748",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1751",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1657",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1745",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1670",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1768",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1759",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1726",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1695",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1708",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1705",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1774",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1785",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1735",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1761",
+            "count": 1,
+            "percentage": 0.03
+        },
+        {
+            "label": "Escherichiacolistr.K-12substr.MG1679",
+            "count": 1,
+            "percentage": 0.03
+        }
+    ],
+    "localization_distribution": [
+        {
+            "label": "Nucleus",
+            "count": 976,
+            "percentage": 29.61
+        },
+        {
+            "label": "Cytoplasm",
+            "count": 894,
+            "percentage": 27.12
+        },
+        {
+            "label": "Mitochondrion",
+            "count": 782,
+            "percentage": 23.73
+        },
+        {
+            "label": "Extracellular",
+            "count": 330,
+            "percentage": 10.01
+        },
+        {
+            "label": "Endoplasmic reticulum",
+            "count": 124,
+            "percentage": 3.76
+        },
+        {
+            "label": "Cell membrane",
+            "count": 60,
+            "percentage": 1.82
+        },
+        {
+            "label": "Peroxisome",
+            "count": 54,
+            "percentage": 1.64
+        },
+        {
+            "label": "Lysosome/Vacuole",
+            "count": 43,
+            "percentage": 1.3
+        },
+        {
+            "label": "Golgi apparatus",
+            "count": 18,
+            "percentage": 0.55
+        },
+        {
+            "label": "Unknown",
+            "count": 15,
+            "percentage": 0.46
+        }
+    ],
+    "stability_distribution": [
+        {
+            "label": "unstable",
+            "count": 1887,
+            "percentage": 57.25
+        },
+        {
+            "label": "stable",
+            "count": 1342,
+            "percentage": 40.72
+        },
+        {
+            "label": "Stable",
+            "count": 31,
+            "percentage": 0.94
+        },
+        {
+            "label": "Unstable",
+            "count": 21,
+            "percentage": 0.64
+        },
+        {
+            "label": "Unknown",
+            "count": 15,
+            "percentage": 0.46
+        }
+    ],
+    "gene_type_distribution": [
+        {
+            "label": "Pseudogene",
+            "count": 1020,
+            "percentage": 30.95
+        },
+        {
+            "label": "intergenic",
+            "count": 900,
+            "percentage": 27.31
+        },
+        {
+            "label": "Reverse antisense",
+            "count": 345,
+            "percentage": 10.47
+        },
+        {
+            "label": "miRNA",
+            "count": 266,
+            "percentage": 8.07
+        },
+        {
+            "label": "snoRNA",
+            "count": 241,
+            "percentage": 7.31
+        },
+        {
+            "label": "snRNA",
+            "count": 194,
+            "percentage": 5.89
+        },
+        {
+            "label": "Reverse",
+            "count": 128,
+            "percentage": 3.88
+        },
+        {
+            "label": "Antisense",
+            "count": 98,
+            "percentage": 2.97
+        },
+        {
+            "label": "Intron",
+            "count": 49,
+            "percentage": 1.49
+        },
+        {
+            "label": "tRNA",
+            "count": 39,
+            "percentage": 1.18
+        },
+        {
+            "label": "protein_coding",
+            "count": 15,
+            "percentage": 0.46
+        },
+        {
+            "label": "rRNA",
+            "count": 1,
+            "percentage": 0.03
+        }
+    ],
+    "protein_length_distribution": [
+        {
+            "label": "<50 aa",
+            "min": null,
+            "max": 50.0,
+            "count": 1781,
+            "percentage": 54.28
+        },
+        {
+            "label": "50-100 aa",
+            "min": 50.0,
+            "max": 100.0,
+            "count": 784,
+            "percentage": 23.9
+        },
+        {
+            "label": "100-200 aa",
+            "min": 100.0,
+            "max": 200.0,
+            "count": 423,
+            "percentage": 12.89
+        },
+        {
+            "label": "200-500 aa",
+            "min": 200.0,
+            "max": 500.0,
+            "count": 228,
+            "percentage": 6.95
+        },
+        {
+            "label": "500-1000 aa",
+            "min": 500.0,
+            "max": 1000.0,
+            "count": 52,
+            "percentage": 1.58
+        },
+        {
+            "label": ">1000 aa",
+            "min": 1000.0,
+            "max": null,
+            "count": 13,
+            "percentage": 0.4
+        }
+    ],
+    "physicochemical": {
+        "molecular_weight": {
+            "mean": 10255.33,
+            "median": 5200.31,
+            "min": 2780.01,
+            "max": 179214.3,
+            "std_dev": 15225.69
+        },
+        "theoretical_pi": {
+            "mean": 8.6,
+            "median": 9.07,
+            "min": 2.92,
+            "max": 13.28,
+            "std_dev": 2.26
+        },
+        "gravy": {
+            "mean": -0.13,
+            "median": -0.14,
+            "min": -2.57,
+            "max": 3.09,
+            "std_dev": 0.62
+        },
+        "aliphatic_index": {
+            "mean": 85.84,
+            "median": 85.13,
+            "min": 0.0,
+            "max": 293.45,
+            "std_dev": 28.17
+        },
+        "instability_index": {
+            "mean": 47.33,
+            "median": 44.51,
+            "min": -17.78,
+            "max": 223.78,
+            "std_dev": 23.59
+        }
+    },
+    "visualization_recommendations": {
+        "organism_distribution": "pie_chart",
+        "localization_distribution": "horizontal_bar_chart",
+        "stability_distribution": "donut_chart",
+        "gene_type_distribution": "pie_chart",
+        "protein_length_distribution": "histogram",
+        "molecular_weight": "box_plot",
+        "theoretical_pi": "violin_plot",
+        "gravy": "distribution_curve",
+        "aliphatic_index": "box_plot",
+        "instability_index": "scatter_plot_with_threshold"
+    }
+}
