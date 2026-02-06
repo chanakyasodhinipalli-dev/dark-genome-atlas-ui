@@ -116,16 +116,24 @@ export interface DrugInteractionField {
 }
 
 export interface UICard {
-  type: "protein_summary" | "physicochemical_properties" | "structure_summary" | "pdb_structures" | "similar_proteins" | "drug_interactions" | "genomic_location" | "sequence" | string;
+  type: "protein_summary" | "physicochemical_properties" | "structure_summary" | "pdb_structures" | "similar_proteins" | "drug_interactions" | "genomic_location" | "sequence" | "local_structure" | string;
   title: string;
   source_badges: string[];
   fields: (CardField | PDBStructureField | SimilarProteinField | DrugInteractionField)[];
 }
 
 export interface UIAction {
-  type: "view_3d_structure" | "compare_structures" | "explore_similar" | "export_data" | "external_link" | "search_mutations";
+  type: "view_3d_structure" | "compare_structures" | "explore_similar" | "export_data" | "external_link" | "search_mutations" | "download_local_pdb" | "view_local_structure";
   label: string;
   payload: Record<string, unknown>;
+}
+
+export interface LocalAssets {
+  protein_id: string;
+  pdb_url: string;
+  image_url: string;
+  source: string;
+  description: string;
 }
 
 export interface RefusalInfo {
@@ -177,4 +185,5 @@ export interface ChatResponse {
   actions: UIAction[];
   trace: WorkflowTrace;
   session_id: string;
+  local_assets?: LocalAssets | null; // Local structure files when external sources unavailable
 }

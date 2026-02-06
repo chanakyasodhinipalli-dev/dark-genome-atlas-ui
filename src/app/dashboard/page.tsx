@@ -46,32 +46,32 @@ export default function DashboardPage() {
         }}
       >
         <div className="flex flex-col items-center px-6 pt-10 pb-16">
-          <h1 className="text-5xl font-extrabold bg-gradient-to-r from-indigo-400 to-teal-300 text-transparent bg-clip-text">
+          <h1 className="text-5xl font-extrabold bg-gradient-to-r from-slate-800 via-indigo-900 to-slate-800 text-transparent bg-clip-text drop-shadow-sm">
             Welcome to Deep Genome Atlas
           </h1>
 
-          <h2 className="text-2xl font-semibold mt-2 text-white">
-            <span className="text-purple-300">Explore</span> <span className="text-red-300">the Deep</span> <span className="text-indigo-300">Proteome</span>
+          <h2 className="text-2xl font-semibold mt-2">
+            <span className="text-purple-900">Explore</span> <span className="text-rose-800">the Deep</span> <span className="text-indigo-900">Proteome</span>
           </h2>
 
-          <p className="mt-6 text-lg max-w-4xl text-center text-gray-100">
-            An <strong className="text-violet-300">Agentic AI-Powered Interactive Atlas</strong> for <span className="text-cyan-300">Non-Expressed DNA</span>,{" "}
-            <span className="text-blue-300">Non-Translating RNA</span>, <span className="text-purple-300">Novel Proteins</span>, and <span className="text-indigo-300">Pseudogenes</span>
+          <p className="mt-6 text-lg max-w-4xl text-center text-slate-800">
+            An <strong className="text-violet-900">Agentic AI-Powered Interactive Atlas</strong> for <span className="text-cyan-800">Non-Expressed DNA</span>,{" "}
+            <span className="text-blue-900">Non-Translating RNA</span>, <span className="text-purple-900">Novel Proteins</span>, and <span className="text-indigo-900">Pseudogenes</span>
           </p>
 
-          <p className="mt-4 text-base max-w-4xl text-center text-gray-100">
-            <span className="text-orange-300">Uncover</span> the <span className="text-purple-300">hidden functional potential</span> of the <span className="text-indigo-300">genome</span>.
+          <p className="mt-4 text-base max-w-4xl text-center text-slate-800">
+            <span className="text-amber-800">Uncover</span> the <span className="text-purple-900">hidden functional potential</span> of the <span className="text-indigo-900">genome</span>.
           </p>
 
-          <p className="mt-2 text-base max-w-4xl text-center text-gray-100">
-            <span className="text-cyan-300">Explore, analyze, and understand</span> <em className="text-purple-200">deep</em> (formerly termed "<em className="text-purple-200">dark</em>"){" "}
-            <span className="text-indigo-300">genomic and proteomic elements</span>—including <span className="text-blue-300">non-expressed and non-translating sequences</span>—through{" "}
-            <strong className="text-violet-300">AI-driven discovery, reasoning, and biological insight</strong>.
+          <p className="mt-2 text-base max-w-4xl text-center text-slate-800">
+            <span className="text-cyan-800">Explore, analyze, and understand</span> <em className="text-purple-900">deep</em> (formerly termed &quot;<em className="text-purple-900">dark</em>&quot;){" "}
+            <span className="text-indigo-900">genomic and proteomic elements</span>—including <span className="text-blue-900">non-expressed and non-translating sequences</span>—through{" "}
+            <strong className="text-violet-900">AI-driven discovery, reasoning, and biological insight</strong>.
           </p>
 
-          <p className="mt-2 mb-16 text-base max-w-4xl text-center text-gray-100">
-            In this atlas, "<em className="text-purple-200">dark</em>" or "<em className="text-purple-200">deep</em>" genome refers specifically to{" "}
-            <span className="text-cyan-300">non-expressed DNA</span> and <span className="text-blue-300">non-translating RNA</span>, consistent with our original and recent publications.
+          <p className="mt-2 mb-16 text-base max-w-4xl text-center text-slate-800">
+            In this atlas, &quot;<em className="text-purple-900">dark</em>&quot; or &quot;<em className="text-purple-900">deep</em>&quot; genome refers specifically to{" "}
+            <span className="text-cyan-800">non-expressed DNA</span> and <span className="text-blue-900">non-translating RNA</span>, consistent with our original and recent publications.
           </p>
 
           {/* Divider */}

@@ -43,6 +43,18 @@ export function ActionButton({ action }: ActionButtonProps) {
         alert("Mutation search not yet implemented");
         break;
 
+      case "download_local_pdb":
+        if (action.payload.pdb_url) {
+          window.open(action.payload.pdb_url as string, "_blank");
+        }
+        break;
+
+      case "view_local_structure":
+        if (action.payload.image_url) {
+          window.open(action.payload.image_url as string, "_blank");
+        }
+        break;
+
       default:
         console.log("Unknown action type:", action.type);
     }
@@ -62,6 +74,10 @@ export function ActionButton({ action }: ActionButtonProps) {
         return "bg-gradient-to-r from-gray-600 to-slate-600 hover:from-gray-700 hover:to-slate-700";
       case "search_mutations":
         return "bg-gradient-to-r from-orange-600 to-amber-600 hover:from-orange-700 hover:to-amber-700";
+      case "download_local_pdb":
+        return "bg-gradient-to-r from-amber-600 to-yellow-600 hover:from-amber-700 hover:to-yellow-700";
+      case "view_local_structure":
+        return "bg-gradient-to-r from-teal-600 to-cyan-600 hover:from-teal-700 hover:to-cyan-700";
       default:
         return "bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800";
     }

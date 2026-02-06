@@ -4,12 +4,12 @@ export const COMPANY_NAME = "AI.MeD";
 
 // Resource paths - update these if you move the images
 export const RESOURCES = {
-  background: "/resources/background.webp",
+  background: "/resources/new-common-background.png",
   aimedLogo: "/resources/aimed-logo.svg",
   darkGenomeAtlasLogo: "/resources/dark-genome-atlas-logo.png",
   darkGenomeAtlasLogoOnly: "/resources/dark-genome-atlas-logo-only.png",
   poweredByLogo: "/resources/dark-genome-atlas-powered-by-aimed.svg",
-  dashboardBackground: "/resources/dashboard-background.png",
+  dashboardBackground: "/resources/new-common-background.png",
 } as const;
 
 // API endpoints (to be configured)
@@ -26,4 +26,15 @@ export const API_ENDPOINTS = {
   chat: {
     run: "http://localhost:8000/api/chat/run",
   },
+  localStructure: {
+    baseUrl: "http://localhost:8000",
+    pdbPath: "/structures/pdb",
+    imagePath: "/structures/images",
+  },
+} as const;
+
+// Session limits for pay-per-view model
+export const SESSION_LIMITS = {
+  freeDownloadsPerSession: 3,
+  freeViewsPerSession: 3,
 } as const;

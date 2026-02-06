@@ -7,6 +7,7 @@ import { SimilarProteinsCard } from "./cards/SimilarProteinsCard";
 import { DrugInteractionsCard } from "./cards/DrugInteractionsCard";
 import { GenomicLocationCard } from "./cards/GenomicLocationCard";
 import { SequenceCard } from "./cards/SequenceCard";
+import { LocalStructureCard } from "./cards/LocalStructureCard";
 import { ActionButton } from "./ActionButton";
 import { Citation } from "./Citation";
 
@@ -18,10 +19,10 @@ export function ChatResponse({ response }: ChatResponseProps) {
   // Check for refusal
   if (response.refusal) {
     return (
-      <div className="bg-red-50 border border-red-200 rounded-lg p-6">
+      <div className="bg-red-50 border border-red-200 rounded-lg p-6 w-full overflow-hidden">
         <h3 className="text-red-800 font-semibold mb-2 flex items-center gap-2">
           <svg
-            className="w-5 h-5"
+            className="w-5 h-5 flex-shrink-0"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -35,9 +36,9 @@ export function ChatResponse({ response }: ChatResponseProps) {
           </svg>
           Query Blocked
         </h3>
-        <p className="text-red-700">{response.refusal.message}</p>
+        <p className="text-red-700 break-words whitespace-pre-wrap">{response.refusal.message}</p>
         {response.refusal.details && (
-          <pre className="mt-3 text-xs text-red-600 bg-red-100 p-3 rounded">
+          <pre className="mt-3 text-xs text-red-600 bg-red-100 p-3 rounded overflow-x-auto whitespace-pre-wrap break-words">
             {JSON.stringify(response.refusal.details, null, 2)}
           </pre>
         )}
@@ -105,6 +106,8 @@ export function ChatResponse({ response }: ChatResponseProps) {
         return <GenomicLocationCard key={index} data={card} />;
       case "sequence":
         return <SequenceCard key={index} data={card} />;
+      case "local_structure":
+        return <LocalStructureCard key={index} data={card} localAssets={response.local_assets} />;
       default:
         // Generic fallback for unknown card types
         return (
@@ -208,6 +211,23 @@ export function ChatResponse({ response }: ChatResponseProps) {
             </div>
           </div>
         </div>
+        </section>
+      )}
+
+      <br></br>
+
+      {/* Local Assets - Shows when local structure files are available */}
+      {response.local_assets && (
+        <section className="w-full">
+          <LocalStructureCard
+            data={{
+              type: "local_structure",
+              title: "Local Structure Available",
+              source_badges: [response.local_assets.source === "local_prediction" ? "Local Prediction" : response.local_assets.source],
+              fields: []
+            }}
+            localAssets={response.local_assets}
+          />
         </section>
       )}
 

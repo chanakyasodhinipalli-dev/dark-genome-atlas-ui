@@ -49,6 +49,9 @@ export const useAuthStore = create<AuthStore>()(
         // Clear persisted storage
         if (typeof window !== "undefined") {
           localStorage.removeItem("Deep Genome Atlas-genome-atlas-auth");
+          // Clear pay-per-view usage tracking
+          sessionStorage.removeItem("deepGenomeAtlas_downloadCount");
+          sessionStorage.removeItem("deepGenomeAtlas_viewCount");
         }
       },
 
